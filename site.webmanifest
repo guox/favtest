@@ -3,7 +3,7 @@
     "short_name": "qwtest",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=m2nn4QB2WB",
+            "src": "/favtest/android-chrome-192x192.png?v=m2nn4QB2WB",
             "sizes": "192x192",
             "type": "image/png"
         }
