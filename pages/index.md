@@ -2,4 +2,6 @@
 permalink: /
 ---
 
-{{ site.time | date: "%s" }}
+[simple](/simple)
+
+[svg](/svg)

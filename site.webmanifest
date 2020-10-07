@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Favicon Test for Chrome",
+    "short_name": "FTFC",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#38ff9c",
+    "background_color": "#38ff9c",
+    "start_url": "https://www.heweather.com",
     "display": "standalone"
 }
