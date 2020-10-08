@@ -1,6 +1,6 @@
 {
-    "name": "Favicon Test for Chrome",
-    "short_name": "FTFC",
+    "name": "full app name",
+    "short_name": "short app name",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#000000",
     "background_color": "#000000",
-    "start_url": "https://favicontest.qweather.com",
+    "start_url": "https://your-domain-name.com",
     "display": "standalone"
 }

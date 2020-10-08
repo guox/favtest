@@ -1,5 +1,5 @@
-name: Favicon Dispaly Test
-description: Test favicon's display in different browsers 测试各类favicon在不同浏览器的显示效果
+name: Favicon Display Test
+description: Test favicon in different browsers 测试各类favicon在不同浏览器的显示效果
 timezone: Asia/Shanghai
 url: "https://favicontest.qweather.com"
 icp: 京ICP备15048401号-11
@@ -17,6 +17,7 @@ exclude:
 - .gitignore
 - .jekyll-cache
 - README.md
+- CNAME
 - code
 plugins:
 - jekyll-seo-tag
