@@ -1,4 +1,5 @@
 ---
+title: Favicon Display Test
 permalink: /
 ---
 

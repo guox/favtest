@@ -1,4 +1,51 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 { 
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.sitename, .sitename a {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px;
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.navlist {
+    list-style: none;
+    float: left;
+}
+
+.navlist > li {
+    display: block;
+    float: left;
+
+    padding: 10px;
 }
