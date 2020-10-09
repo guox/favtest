@@ -17,9 +17,22 @@ h3 {
     font-size: 20px;
 }
 
-.sitename, .sitename a {
+a {
+    color:#007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sitename {
+    margin: 10px 0;
     text-align: center;
-    color: #000;
+}
+
+.sitename a {
+    color: #333;
     text-decoration: none;
 }
 
@@ -27,25 +40,42 @@ h3 {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 760px;
+    max-width: 680px;
 }
 
 .navbar {
-    min-height: 50px;
+    /* min-height: 30px; */
+    padding: 10px;
     margin-bottom: 20px;
     background-color: #f0f0f0;
     font-size: 16px;
-    text-align: center;
 }
 
 .navlist {
     list-style: none;
-    float: left;
+    /* float: left; */
+    /* display: block; */
+    margin: 0 auto;
 }
 
 .navlist > li {
-    display: block;
-    float: left;
 
+    float: left;
+    margin: 0 auto;
     padding: 10px;
+}
+
+.footer {
+    background-color: #1D1D1E;
+    color: #c0c0c0;
+    font-size: 12px;
+    padding: 10px 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+}
+
+.footer a {
+    color: #fff;
 }
