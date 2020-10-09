@@ -31,24 +31,23 @@
 
     <nav class="navbar">
         <div class="container">
-            <ul class="navlist">
-                {% for title in site.data.nav.nav %}
-                <li class="nav-list"><a href="/{{ title.title | downcase }}/">{{ title.title }}</a></li>
-                {% endfor %}
-            </ul>
-
+            {% for title in site.data.nav.nav %}
+            <a class="navlist {% if page.url == title.link %}active{% endif %}" href="{{ title.link }}">{{ title.title }}</a>
+            {% endfor %}
         </div>
     </nav>
 
     <div class="container">
         {{ content }}
     </div>
+
     <footer class="footer">
         <div class="container">
-                2020 &copy; <a href="https://www.qweather.com" target="_blank">QWeather</a> and <a href="http://#" target="_blank" rel="noopener noreferrer">MIT</a> for code.
+            2020 &copy; <a href="https://www.qweather.com" target="_blank">QWeather</a> and <a href="http://#"
+                target="_blank" rel="noopener noreferrer">MIT</a> for code.
         </div>
-        
     </footer>
+
 </body>
 
 </html>

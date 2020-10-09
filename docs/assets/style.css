@@ -27,7 +27,7 @@ a:hover {
 }
 
 .sitename {
-    margin: 10px 0;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -38,31 +38,34 @@ a:hover {
 
 .container {
     padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
     max-width: 680px;
 }
 
 .navbar {
-    /* min-height: 30px; */
     padding: 10px;
     margin-bottom: 20px;
     background-color: #f0f0f0;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a {
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .navlist {
-    list-style: none;
-    /* float: left; */
-    /* display: block; */
-    margin: 0 auto;
+    /* margin-right: 5px; */
 }
 
-.navlist > li {
+.active {
+    /* font-weight: bold; */
+    background-color: #007bff;
+    color: #fff;
 
-    float: left;
-    margin: 0 auto;
-    padding: 10px;
 }
 
 .footer {
@@ -71,7 +74,7 @@ a:hover {
     font-size: 12px;
     padding: 10px 0;
     bottom: 0;
-    margin: auto;
+
     width: 100%;
     position: absolute;
 }

@@ -1,6 +1,11 @@
 nav:
-  - title: All
+  - title: Home+All
+    link: /
   - title: Simple
+    link: /simple/
   - title: SVG
+    link: /svg/
   - title: Code
+    link: /code/
   - title: Doc
+    link: /doc/
