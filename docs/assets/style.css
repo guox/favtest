@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -48,7 +49,6 @@ a:hover {
     background-color: #f0f0f0;
     font-size: 14px;
     text-align: center;
-    width: 100%;
 }
 
 .navbar a {
@@ -74,11 +74,25 @@ a:hover {
     font-size: 12px;
     padding: 10px 0;
     bottom: 0;
-
     width: 100%;
     position: absolute;
 }
 
+.copyright {
+    width: auto;
+    max-width: 680px;
+    padding: 10px 0;
+}
+
 .footer a {
     color: #fff;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    color: #000;
+    margin: 0 1px;
+    padding: 2px 4px;
+    border-radius: 4px;
 }
