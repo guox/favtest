@@ -1,14 +1,25 @@
 ---
-title: simple
-description: 和风天气提供了全球天气API接口，天气插件，开源天气APP，天气SDK等天气开发产品，数据包括灾害预警、天气实况和预测、分钟级降水、PM2.5空气质量AQI、日出日落、生活指数等。
+title: Simple Mode
+description: The simple mode will only use large sized icons as favicons, making them easier to maintain and design.
 lang-ref: simple
 permalink: /simple/
 ---
 
-如果对在不同浏览器和设备上显示favicon没有特别要求，simple模式更加简单一些，即在不同的设备上都采用最大尺寸的favicon，维护起来更加容易。
+If there is no special requirement for favicons to be displayed on different browsers and devices, simple mode is simpler, meaning that we will only use the largest size icons as favicons, easier to maintain and design.
 
-| Safari | Desktop     | Mobile               |
-| ------ | ----------- | -------------------- |
-| Safari | favicon.png | apple-touch-icon.png |
-| Chrome | favicon.png | apple-touch-icon.png |
-| IE     | favicon.png | favicon.png          |
+With simple mode please note:
+
+- Chrome will ues apple-touch-icon on mobile devices
+- Windows will use mstile-150x150 for 
+
+## Code
+
+For root dir
+```html
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v={{ site.time | date: "%s" }}">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v={{ site.time | date: "%s" }}">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v={{ site.time | date: "%s" }}">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+```
