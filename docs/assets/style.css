@@ -11,11 +11,11 @@ h1 {
 }
 
 h2 { 
-    font-size: 24px;
+    font-size: 20px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 a {
@@ -30,8 +30,7 @@ a:hover {
 .sitename {
     font-size: 24px;
     font-weight: bold;
-    margin: 10px auto;
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 .sitename a {
@@ -46,10 +45,11 @@ a:hover {
 }
 
 .navbar {
-    padding: 10px;
+    /* padding: 10px; */
+    padding-bottom: 15px;
     margin-bottom: 20px;
     font-size: 14px;
-    text-align: center;
+    border-bottom: 1px #ddd solid;
 }
 
 .navbar a {
@@ -68,11 +68,7 @@ a:hover {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 40px;
 }
-.footer {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 680px;
-}
+
 
 .copyright {
     background-color: #e9f3f9;
@@ -82,7 +78,7 @@ a:hover {
     display: inline-block;
 }
 
-.footer a {
+.copyright a {
     color: #000;
     text-decoration: underline;
     font-weight: bold;

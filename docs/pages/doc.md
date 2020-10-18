@@ -4,7 +4,11 @@ description: 这是文档
 lang-ref: simple
 ---
 
-`documentaution`
+## Download html and config for favicon 
+
+See <https://github.com/qwd/FaviconCat>
+
+## Browsers docs for favicon
 
 - [Safari - Configuring web applications](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW2)
 - [Safari - Creating pinned tab icons](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
