@@ -10,8 +10,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
     {% seo %}
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/assets/style.css?v={{ site.time | date: "%s" }}" />
     {% assign favcode = page.name %}
     {% case favcode %}
@@ -26,26 +24,26 @@
 
 <body>
     <header class="sitename">
-        <h1><a href="/">{{ site.name }}</a></h1>
+        <a href="/">{{ site.name }}</a>
     </header>
 
     <nav class="navbar">
         <div class="container">
             {% for title in site.data.nav.nav %}
-            <a class="navlist {% if page.url == title.link %}active{% endif %}" href="{{ title.link }}">{{ title.title }}</a>
+            <a class="navlist {% if page.url == title.link %}active{% endif %}"
+                href="{{ title.link }}">{{ title.title }}</a>
             {% endfor %}
         </div>
     </nav>
 
-    <div class="container">
+    <div class="content container">
+        <h1 class="pagename">{{ page.title }}</h1>
         {{ content }}
     </div>
 
     <footer class="footer">
-        <div class="container">
-            2020 &copy; <a href="https://www.qweather.com" target="_blank">QWeather</a> and <a href="http://#"
-                target="_blank" rel="noopener noreferrer">MIT</a> for code.
-        </div>
+        <div class="copyright">2020 &copy; <a href="https://www.qweather.com" target="_blank">QWeather</a> and <a
+                href="http://#" target="_blank" rel="noopener noreferrer">MIT</a> for code.</div>
     </footer>
 
 </body>
