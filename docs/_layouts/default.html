@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
     {% seo %}
-    <link rel="stylesheet" href="/assets/style.css?v={{ site.time | date: "%s" }}" />
+    <link rel="stylesheet" href="{{ 'assets/style.css' | relative_url }}?{{ site.time | date: "%s" }}" />
     {% assign favcode = page.name %}
     {% case favcode %}
     {% when "svg.md" %}
@@ -31,7 +31,7 @@
         <div class="container">
             {% for title in site.data.nav.nav %}
             <a class="navlist {% if page.url == title.link %}active{% endif %}"
-                href="{{ title.link }}">{{ title.title }}</a>
+                href="{{ title.link  | relative_url }}">{{ title.title }}</a>
             {% endfor %}
         </div>
     </nav>
